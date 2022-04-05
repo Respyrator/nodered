@@ -1,0 +1,17 @@
+{
+    "name": "respyrator-nodered-2.2.2",
+    "version": "2.2.2",
+    "private": true,
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js $FLOWS"
+    },
+    "dependencies": {
+        "node-red": "2.2.2",
+        "node-red-dashboard": "~3.1.6",
+        "node-red-debugger": "~1.1.1",
+        "nrlint": "^1.0.2"
+    },
+    "engines": {
+        "node": ">=12"
+    }
+}
